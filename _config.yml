@@ -1,11 +1,28 @@
-title: Kubernetes Native Solution for WebRTC SFU
-description: Turn WebRTC media servers into a single Kubernetes service
-url: https://l7mp.io/stunner
+# Site settings
+title: "Kubernetes Native Solution for WebRTC SFU"
+description: "Turn WebRTC media servers into a single Kubernetes service"
+url: "https://l7mp.io/stunner"
 baseurl: ""
+author: "STUNner Team"
 
-# Theme settings
+# Theme configuration
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
+
+# GitHub settings
+github:
+  repository_url: "https://github.com/l7mp/stunner"
+  is_project_page: true
+  zip_url: "https://github.com/l7mp/stunner/zipball/main"
+  tar_url: "https://github.com/l7mp/stunner/tarball/main"
+
+# Social media
+twitter:
+  username: "l7mp_project"
+  card: "summary"
+
+# Analytics
+google_analytics: # Add your Google Analytics ID here
 
 # Build settings
 markdown: kramdown
@@ -14,7 +31,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-# Exclude from processing
+# Navigation
+header_pages:
+  - index.md
+
+# Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -22,21 +43,3 @@ exclude:
   - vendor
   - README.md
   - LICENSE
-
-# Site settings
-author: STUNner Team
-github:
-  repository_url: https://github.com/l7mp/stunner
-  is_project_page: true
-
-# Navigation
-header_pages:
-  - index.md
-
-# Social links
-twitter:
-  username: l7mp_project
-  card: summary
-
-# Google Analytics
-google_analytics: # Add your Google Analytics ID here
